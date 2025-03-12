@@ -1,0 +1,34 @@
+
+GET http://localhost:3001/product
+
+###
+GET http://localhost:3001/product/1
+
+###
+POST http://localhost:3001/product
+Content-Type: application/json
+
+{
+    "name": "Armário",
+    "description": "teste",
+    "price": 3500.00
+}
+
+###
+PUT http://localhost:3001/product/60
+Content-Type: application/json
+
+{
+    "name": "Liquidificador",
+    "description": "sfd dsafads fds fds fd s",
+    "price": 2000
+}
+
+###
+DELETE http://localhost:3001/product/7
+
+###
+
+GET https://api.nucleoengenharia.com.br:8000/colab
+
+
