@@ -15,13 +15,13 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:3001/product/60
+PUT http://localhost:3001/product/55
 Content-Type: application/json
 
 {
     "name": "Liquidificador",
     "description": "sfd dsafads fds fds fd s",
-    "price": 2000
+    "price": 4000
 }
 
 ###

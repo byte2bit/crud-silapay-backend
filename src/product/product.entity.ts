@@ -12,7 +12,7 @@ export default class Product {
     price: number;
     
     @IsNotEmpty({ message: '• A descrição do produto é obrigatória.\n' })
-    @MinLength(5, { message: '• A descrição do produto precisa ter pelo menos 5 caracteres.\n' })
+    @Length(5, 500, { message: '• A descrição do produto precisa ter entre 5 e 500 caracteres.\n' })
     description: string;
     
     createdAt: Date;
